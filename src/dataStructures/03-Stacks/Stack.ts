@@ -4,7 +4,7 @@ import { EqualsFunction } from "../../utils";
 class Stack<T> implements Iterable<T> {
     private list: LinkedList<T>;
 
-    constructor(equalsFunction?: utils.EqualsFunction<T>) {
+    constructor(equalsFunction?: EqualsFunction<T>) {
         if (equalsFunction) this.list = new LinkedList(equalsFunction);
         else this.list = new LinkedList();
     }
