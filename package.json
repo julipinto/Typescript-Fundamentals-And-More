@@ -1,13 +1,16 @@
 {
-  "name": "Typescript-Fundamentals",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Juliapp/Typescript-Fundamentals.git",
-  "author": "Juliapp <aragaopintojuli@gmail.com>",
-  "license": "MIT",
-  "script": {},
-  "devDependencies": {
-    "ts-node-dev": "^1.0.0-pre.61",
-    "typescript": "^4.0.2"
-  }
+    "name": "Typescript-Fundamentals",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Juliapp/Typescript-Fundamentals.git",
+    "author": "Juliapp <aragaopintojuli@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "ds.arrays": "tsnd --transpile-only --ignore-watch node_modules src/dataStructures/01-Arrays/index.ts",
+        "ds.linkedLists": "tsnd --transpile-only --ignore-watch node_modules src/dataStructures/01-Arrays.ts"
+    },
+    "devDependencies": {
+        "ts-node-dev": "^1.0.0-pre.61",
+        "typescript": "^4.0.2"
+    }
 }
