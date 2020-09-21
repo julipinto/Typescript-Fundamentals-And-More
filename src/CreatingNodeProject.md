@@ -47,4 +47,4 @@ Now you can go to **_packege.json_** and config the project to start with a sing
 
 > _---ignore-watch node_modules_ : Ignore node_modules
 
-> _--respawn_ : Refresh the application automatically to every change detected
+> _--respawn_ : Refresh the application automatically to every change
