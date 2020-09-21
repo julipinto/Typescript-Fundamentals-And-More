@@ -20,7 +20,7 @@ class Hero {
     }
 }
 
-class Acher extends Hero {
+class Archer extends Hero {
     arrows: number;
 
     constructor() {
@@ -82,7 +82,7 @@ class Tribe {
     }
 }
 
-const acher: Hero = new Acher();
+const acher: Hero = new Archer();
 const mage = new Mage();
 const knight = new Knight();
 

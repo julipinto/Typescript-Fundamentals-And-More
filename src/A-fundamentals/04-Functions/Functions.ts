@@ -20,3 +20,10 @@ const example = (): void => {
     //implementation
     //try to always assign the function return
 };
+
+var i = 1;
+
+while (i < 6) {
+    console.log("Olá mundo"); //isso é um print
+    i++;
+}
