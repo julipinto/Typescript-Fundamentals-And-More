@@ -1,4 +1,4 @@
-# How to create a React Project with typescript
+# How to create a React Project with Typescript
 
 ### Using Yarn
 
